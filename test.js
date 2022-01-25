@@ -1,6 +1,5 @@
-var x, y, z;  // Declare 3 variables
-x = 5;    // Assign the value 5 to x
-y = 6;    // Assign the value 6 to y
-z = x + y;  // Assign the sum of x and y to z
-
-console.log(eval('2 + 2'));
+javascript:(function(){
+  scrollTo(0,0);
+  var ipt=document.getElementsByName('kw')[0]; ipt.value='alert("hello");'; 
+  eval(ipt.value);
+})()
